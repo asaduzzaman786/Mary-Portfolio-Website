@@ -3,7 +3,9 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 .btn{
     background-color:#FD6E0A;
     padding:10px 15px;
@@ -55,8 +57,10 @@ nav h1 span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 50px 30px 200px;
-    height: 100vh;
+    padding: 30px 50px 0px 180px;
+    background-image: url("../images/header_bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 .banner-text h4{
     font-size: 45px;
@@ -66,6 +70,51 @@ nav h1 span{
     font-weight: bold;
 }
 
+.banner-text p{
+    margin-bottom: 30px;
+    width: 600px;
+}
+
 .banner-image img{
     width: 300px;
+}
+
+/* -------------Main section Style------- */
+
+/* -------------About section Style------- */
+.about{
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0;
+    border-radius: 10px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-description{
+    text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-i-do h3{
+    text-align: center;
+}
+
+
+.what-i-do p{
+    padding: 20px 130px;
+}
+
+.sills-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
