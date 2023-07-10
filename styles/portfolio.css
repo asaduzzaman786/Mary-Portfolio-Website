@@ -65,9 +65,10 @@ main section{
     justify-content: space-between;
     align-items: center;
     padding: 30px 50px 0px 180px;
-    background-image: url("../images/header_bg.png");
-    background-position: bottom right;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-position: bottom right, top left;
     background-repeat: no-repeat;
+    height: 85vh;
 }
 .banner-text h4{
     font-size: 45px;
@@ -140,7 +141,15 @@ main section{
     margin-top: 130px;
 }
 
-input{
+input, textarea{
     display: block;
-    margin: 10px 0;
+    margin: 20px 0;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #fff;
+    border: 0;
+}
+.footer-container img{
+    margin-right: 25px;
+
 }
